@@ -1,0 +1,2659 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+/* Starts Nav */
+
+.nav-container {
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+  padding: 30px;
+}
+
+.logo-clove-card {
+  display: flex;
+  align-items: center;
+  width: 128;
+  height: 52;
+  opacity: 1;
+  top: -7px;
+  gap: 10px;
+  left: -17px;
+}
+
+.logo-c {
+  width: 17.151315689086914;
+  height: 23.993398666381836;
+  opacity: 1;
+  top: 9.35px;
+  left: -0.19px;
+}
+
+.logo-l {
+  width: 12.23265266418457;
+  height: 32.811683654785156;
+  opacity: 1;
+  top: 0.54px;
+  left: 21.79px;
+  padding-bottom: 10px;
+}
+
+.logo-o {
+  width: 20.12088966369629;
+  height: 23.991790771484375;
+  opacity: 1;
+  top: 9.35px;
+  left: 36.98px;
+}
+
+.logo-v {
+  width: 24.67554473876953;
+  height: 23.162490844726562;
+  opacity: 1;
+  top: 10.19px;
+  left: 59.63px;
+}
+
+.logo-e {
+  width: 18.525312423706055;
+  height: 23.99940299987793;
+  opacity: 1;
+  top: 9.35px;
+  left: 86.82px;
+}
+
+.dot-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.dot-up {
+  margin-bottom: 4px;
+  width: 4.626743316650391;
+  height: 4.2213029861450195;
+  opacity: 1;
+  top: 12.97px;
+  left: 111.41px;
+}
+
+.dot-down {
+  margin-top: 4px;
+  width: 4.625670909881592;
+  height: 4.223437786102295;
+  opacity: 1;
+  top: 25.09px;
+  left: 111.36px;
+}
+
+.logo-dental-card {
+  margin-left: 40px;
+  width: 6.6744513511657715;
+  height: 8.124756813049316;
+  opacity: 1;
+  top: 43.98px;
+  left: 31.81px;
+}
+
+.l {
+  width: 5.60455322265625;
+  height: 8.058249473571777;
+  opacity: 1;
+  top: 44.05px;
+  left: 90.5px;
+  padding-bottom: 0.6px;
+}
+
+.curve-img {
+  width: 8.78406047821045;
+  height: 27.276823043823242;
+  opacity: 1;
+  top: 7.68px;
+  left: 119.2px;
+}
+
+.contact-card {
+  display: flex;
+  gap: 20px;
+}
+
+.book-appointment-card {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  background-color: #f8943f;
+  border-radius: 50px;
+  width: 193px;
+  height: 38px;
+  font-size: 16px;
+  border: 1px solid #de6f0d;
+}
+
+.book-appointment-card:hover {
+  background: green;
+  color: #ffffff;
+  border: 1px solid white;
+}
+
+/* Ends Nav */
+
+/* Starts Hospital Information  */
+
+.contact-info-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  gap: 6px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 170px;
+  font-size: 16px;
+}
+
+.contact-info-card:hover {
+  background: green;
+  color: #ffffff;
+}
+
+.heading-description-card {
+  height: 47px;
+  width: 426px;
+  gap: 8px;
+}
+
+.heading {
+  font-family: "Figtree";
+  width: 287px;
+  height: 18px;
+  color: #303030;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+}
+
+.description {
+  width: 426px;
+  height: 21px;
+  font-weight: 600;
+  font-family: "Figtree";
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #4e4e4e;
+}
+
+.hospital-user-details-container {
+  display: flex;
+}
+
+.hospital-info-container {
+  background-image: url("./assets/hospital-bg.jpg");
+  width: 970px;
+  height: 500px;
+  background-size: cover;
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.doctor-bg-img {
+  width: 314;
+  height: 406px;
+  top: 44px;
+  left: 468px;
+  transform: rotate(-180%);
+  transform: translate(-50%);
+  margin-top: 44px;
+}
+
+.painless-root-canal-treatment-card {
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #ffffff 40%,
+    rgba(255, 255, 255, 0.5) 60%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  height: 153px;
+  width: 644px;
+  gap: 20px;
+  padding: 24px 60px;
+  backdrop-filter: blur(15px);
+}
+
+/* Ends Hospital Info */
+
+/* Start User Details */
+
+.user-details-container {
+  width: 473;
+  height: 450;
+  transform: rotate(0%);
+  opacity: 1;
+  top: 70px;
+  left: 967px;
+  border-width: 1px;
+  padding-top: 24px;
+  padding-right: 40px;
+  padding-bottom: 24px;
+  padding-left: 40px;
+  background-color: #fff9f4;
+  gap: 20px;
+}
+
+.get-expert-card {
+  width: 393px;
+  height: 76px;
+  transform: rotate(0%);
+  opacity: 1;
+  gap: 8px;
+}
+
+.get-expert-card h1 {
+  font-family: "Figtree";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+
+.get-expert-card p {
+  font-family: Figtree;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+
+.user-details-card {
+  width: 393px;
+  height: 256px;
+  opacity: 1;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-details-card input[type="text"] {
+  width: 393px;
+  height: 38px;
+  opacity: 1px;
+  border-width: 1px;
+  padding: 14px 16px;
+  gap: 10px;
+  border-radius: 24px;
+}
+
+.terms-card {
+  width: 393px;
+  height: 32px;
+  opacity: 1;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.terms-checkbox {
+  width: 19px;
+  height: 19px;
+  opacity: 1;
+  appearance: none;
+  border-radius: 4px;
+  border: 1px solid #ffe0c4;
+  cursor: pointer;
+}
+
+.terms-checkbox:checked {
+  background-color: #f58420;
+  border-color: #f58420;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.2 4.2c-.3-.3-.8-.3-1.1 0L6.5 8.7 4.9 7.1c-.3-.3-.8-.3-1.1 0-.3.3-.3.8 0 1.1l2.2 2.2c.3.3.8.3 1.1 0l5-5c.4-.3.4-.8.1-1.2z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px;
+}
+
+.terms-label {
+  font-family: "Figtree";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.book-free-btn-card {
+  width: 393;
+  height: 38;
+  opacity: 1;
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  gap: 10px;
+  border-radius: 24px;
+  background-color: #f58420;
+  display: flex;
+  justify-content: center;
+}
+
+.book-free-btn {
+  font-family: Figtree;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  background: none;
+  border: none;
+  width: 160;
+  height: 10;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.book-free-btn-card:hover {
+  background-color: green;
+  color: #ffffff;
+}
+
+/* Ends User Details */
+
+/* Banner-start */
+
+.banner-section-mb {
+  display: none;
+}
+
+.banner-section {
+  width: 1440px;
+  height: 60px;
+  opacity: 1;
+  top: 520px;
+  background: #fff9f4;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-card {
+  width: 1440;
+  height: 38.28134536743164;
+  opacity: 1;
+  top: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-img {
+  width: 34.59733581542969;
+  height: 38.28126907348633;
+  opacity: 1;
+  margin-right: 20px;
+}
+
+.banner-head {
+  width: 82;
+  height: 10;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+
+.banner-span {
+  font-family: Figtree;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #f58420;
+  margin-right: 6px;
+}
+
+/* Banner-ends */
+
+/* ---------------------------------------------------------- */
+
+/* Bottom Section start  */
+
+/* Starts Treatments Container  */
+
+.treatment-container {
+  width: 1320px;
+  height: 417px;
+  opacity: 1;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.treatment-heading-card {
+  width: 880px;
+  height: 65px;
+  opacity: 1;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.treatment-heading {
+  width: 355px;
+  height: 31px;
+  font-family: "Figtree";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  opacity: 1;
+  color: #1a1a1a;
+}
+
+.treatment-description {
+  font-family: "Figtree";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #474747;
+  text-align: center;
+}
+
+.treatments-card {
+  width: 1320px;
+  height: 332px;
+  opacity: 1;
+  gap: 40px;
+  display: flex;
+}
+
+/* Starts Root section  */
+
+.root-canal-treatment-container {
+  width: 640px;
+  height: 332px;
+  opacity: 1;
+  border-radius: 20px;
+  border-width: 1px;
+  border: 1px solid #ffe0c4;
+  display: flex;
+}
+
+.treatment-root-img {
+  width: 320px;
+  height: 332px;
+  opacity: 1;
+}
+
+.root-canal-treatment-card {
+  width: 320px;
+  height: 332px;
+  opacity: 1;
+  gap: 16px;
+  padding-top: 16px;
+  padding-right: 20px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+}
+
+.root-canal-heading-card {
+  width: 256px;
+  height: 53px;
+  opacity: 1;
+  gap: 8px;
+}
+
+.root-canal-heading-card h1 {
+  width: 203px;
+  height: 24px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.root-canal-heading-card p {
+  width: 256px;
+  height: 21px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #474747;
+}
+
+.root-rct-types-card {
+  width: 213px;
+  height: 111px;
+  opacity: 1;
+  gap: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.root-rct-types-card h1 {
+  width: 99px;
+  height: 19px;
+  opacity: 1;
+  font-family: "Figtree";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.root-rct-types-card ul {
+  width: 213px;
+  height: 84px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #474747;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.pricing-section {
+  width: 181px;
+  height: 104px;
+  opacity: 1;
+  gap: 20px;
+}
+
+.pricing-card {
+  width: 147px;
+  height: 46px;
+  opacity: 1;
+  gap: 4px;
+}
+
+.pricing-card p {
+  width: 147px;
+  height: 18px;
+  opacity: 1;
+  font-family: "Figtree";
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #f58420;
+}
+
+.pricing-card h1 {
+  width: 77px;
+  height: 24px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #1a1a1a;
+}
+
+.pricing-section button {
+  width: 181px;
+  height: 38px;
+  opacity: 1;
+  gap: 16px;
+  border-radius: 50px;
+  padding-top: 8px;
+  padding-right: 20px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  background-color: #f58420;
+  border: none;
+  color: #ffffff;
+}
+
+/* Root-section Ends */
+
+/* Re-root-section */
+
+.re-root-canal-treatment-container {
+  width: 640px;
+  height: 332px;
+  opacity: 1;
+  border-radius: 20px;
+  border-width: 1px;
+  border: 1px solid #ffe0c4;
+  display: flex;
+}
+
+.treatment-re-root-img {
+  width: 320px;
+  height: 332px;
+  opacity: 1;
+}
+
+.re-root-canal-treatment-card {
+  width: 320px;
+  height: 332px;
+  opacity: 1;
+  gap: 16px;
+  padding-top: 16px;
+  padding-right: 20px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+}
+
+.re-root-canal-heading-card {
+  width: 256px;
+  height: 53px;
+  opacity: 1;
+  gap: 8px;
+}
+
+.re-root-canal-heading-card h1 {
+  width: 235px;
+  height: 24px;
+  opacity: 1;
+  font-family: "Figtree";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.re-root-canal-heading-card p {
+  width: 280px;
+  height: 42px;
+  opacity: 1;
+  font-family: "Figtree";
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 16px;
+  letter-spacing: 0%;
+  color: #474747;
+}
+
+.re-root-rct-types-card {
+  width: 289px;
+  height: 90px;
+  opacity: 1;
+  gap: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.re-root-rct-types-card h1 {
+  width: 99px;
+  height: 19px;
+  opacity: 1;
+  font-family: "Figtree";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.re-root-rct-types-card ul {
+  width: 289px;
+  height: 63px;
+  opacity: 1;
+  font-family: "Figtree";
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  color: #474747;
+}
+
+.pricing-section {
+  width: 181px;
+  height: 104px;
+  opacity: 1;
+  gap: 20px;
+}
+
+.pricing-card {
+  width: 147px;
+  height: 46px;
+  opacity: 1;
+  gap: 4px;
+}
+
+.pricing-card p {
+  width: 147px;
+  height: 18px;
+  opacity: 1;
+  font-family: "Figtree";
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #f58420;
+}
+
+.pricing-card h1 {
+  width: 77px;
+  height: 24px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #1a1a1a;
+}
+
+.pricing-section button {
+  width: 181px;
+  height: 38px;
+  opacity: 1;
+  gap: 16px;
+  border-radius: 50px;
+  padding-top: 8px;
+  padding-right: 20px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  background-color: #f58420;
+  border: none;
+  color: #ffffff;
+}
+
+/* re-root section ends */
+
+/* Starts Treatments Container */
+/* Start Testimonials */
+
+.testimonials-container {
+  width: 1320px;
+  height: 479px;
+  opacity: 1;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.header-card {
+  width: 820px;
+  height: 61px;
+  opacity: 1;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-card h1 {
+  width: 251px;
+  height: 31px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #303030;
+}
+
+.header-card p {
+  width: 820px;
+  height: 26px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #474747;
+}
+
+.sliders-card {
+  width: 1320px;
+  height: 398px;
+  opacity: 1;
+  gap: 24px;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.testimonial-card {
+  width: 224px;
+  height: 398px;
+  opacity: 1;
+  gap: 8px;
+}
+
+.testimonial-card img {
+  width: 224;
+  height: 350;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.patient-details-card {
+  width: 224px;
+  height: 40px;
+  justify-content: space-between;
+  opacity: 1;
+  display: flex;
+}
+
+.patient-details-card div {
+  width: 69px;
+  height: 40px;
+  opacity: 1;
+  gap: 4px;
+}
+
+.patient-details-card div h1 {
+  width: 69px;
+  height: 19px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #1a1a1a;
+}
+
+.patient-details-card div p {
+  width: 42px;
+  height: 17px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #777777;
+}
+
+.patient-details-card span {
+  width: 60;
+  height: 19px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #f58420;
+}
+
+/* Ends Testimonials */
+
+/* Google-reviews starts*/
+.google-reviews-container {
+  width: 1440px;
+  height: 338px;
+  opacity: 1;
+  gap: 20px;
+  padding: 40px;
+  background-color: #fff9f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.google-reviews-container h1 {
+  width: 185px;
+  height: 17px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #303030;
+}
+
+.reviews-card {
+  width: 1164.75px;
+  height: 221px;
+  opacity: 1;
+  gap: 69px;
+  display: flex;
+  align-items: center;
+}
+
+.google-card {
+  width: 174px;
+  height: 155.5px;
+  opacity: 1;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-card div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.google-card p {
+  width: 174px;
+  height: 11px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #000;
+}
+
+.rating-card {
+  width: 128px;
+  height: 55.25px;
+  opacity: 1;
+  gap: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-card div {
+  width: 80.25px;
+  height: 29.25px;
+  opacity: 1;
+  gap: 7.5px;
+}
+
+.rating-card div img {
+  width: 29.25px;
+  height: 29.25px;
+  opacity: 1;
+  border-radius: 0.75px;
+}
+
+.rating-card div h1 {
+  width: 36px;
+  height: 29px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #303030;
+  margin-top: 4px;
+}
+
+.rating-card p {
+  width: 174px;
+  height: 11px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #474747;
+}
+
+.vr-line {
+  width: 0px;
+  height: 28px;
+  opacity: 1;
+  border-width: 1.5px;
+  border: 1.5px solid #ffe7d2;
+  text-align: center;
+  color: #de6f0d;
+}
+
+.reviews-card-vl {
+  width: 142.5000000000001px;
+  height: 0px;
+  transform: rotate(-90deg);
+  opacity: 1;
+  border-width: 1.5px;
+  border: 1px solid #ffddc1;
+}
+
+.review-testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 852.75px;
+  height: 221px;
+  gap: 24px;
+  overflow-x: auto;
+  opacity: 1;
+  scroll-behavior: smooth;
+}
+
+.review-card {
+  width: 302.25px;
+  height: 202px;
+  gap: 18px;
+  opacity: 1;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-logo-card {
+  width: 350px;
+  height: 200px;
+  position: relative;
+}
+
+.google-logo {
+  position: absolute;
+  top: 0px;
+  right: 38px;
+  width: 60px;
+  height: 60px;
+  opacity: 1;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 120px;
+  background-color: #ffebc4;
+}
+
+.review-profile img {
+  width: 51px;
+  height: 51px;
+  opacity: 1;
+}
+
+.review-profile-container {
+  width: 272.25px;
+  height: 103px;
+  gap: 18px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-profile-container p {
+  width: 272.25px;
+  height: 44px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #464646;
+}
+
+.review-profile-card {
+  width: 272.25px;
+  height: 41px;
+  gap: 12px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-profile-card h1 {
+  font-family: Figtree;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 85px;
+  height: 11px;
+  opacity: 1;
+  color: #303030;
+}
+
+.review-profile-card div {
+  width: 125.7503890991211px;
+  height: 18px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-profile-card div img {
+  width: 18.291893005371094;
+  height: 18;
+  top: 23px;
+  left: 83.25px;
+  opacity: 1;
+}
+/* Google-reviews Ends*/
+
+/* Starts footer section  */
+.footer-container {
+  width: 1440px;
+  height: 149px;
+  opacity: 1;
+  background-color: #462512;
+  padding: 20px;
+}
+
+.clove-logo {
+  width: 174px;
+  height: 69px;
+  opacity: 1;
+}
+
+.footer-content-card {
+  width: 1320px;
+  height: 69px;
+  top: 40px;
+  left: 60px;
+  justify-content: space-between;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content {
+  width: 837px;
+  height: 69px;
+  gap: 24px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-content ul {
+  width: 361px;
+  height: 11px;
+  gap: 27px;
+  opacity: 1;
+  display: flex;
+}
+
+.footer-content ul li {
+  width: 118px;
+  height: 11px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  display: inline;
+}
+
+.footer-content p {
+  width: 761px;
+  height: 10px;
+  opacity: 1;
+  font-family: Figtree;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hr-line {
+  width: 837px;
+  height: 0px;
+  opacity: 1;
+  border-width: 1px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+/* Ends footer section  */
+
+.input-error {
+  color: #ff4444;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.captcha-card {
+  display: flex;
+  gap: 30px;
+}
+
+.get-captcha-btn {
+  border: none;
+  background-color: #f58420;
+  width: 112px;
+  height: 48px;
+  color: #ffff;
+  padding: 10px;
+  font-family: sans-serif;
+  border-radius: 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.captcha-digit {
+  border: none;
+  background-color: green;
+  width: 112px;
+  height: 48px;
+  color: #ffff;
+  font-family: sans-serif;
+  border-radius: 15px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Mobile view */
+
+@media screen and (max-width: 430px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Starts Nav */
+
+  .nav-container {
+    width: 390px;
+    height: 80px;
+    top: 40px;
+    opacity: 1;
+    background-color: #fffaf5;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-clove-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 101px;
+    height: 41px;
+    top: 19px;
+    left: 16px;
+    opacity: 1;
+  }
+
+  .logo-c {
+    width: 13.533461570739746;
+    height: 18.91787338256836;
+    top: 7.38px;
+    left: -0.15px;
+    opacity: 1;
+  }
+
+  .logo-l {
+    width: 9.652328491210938;
+    height: 25.870752334594727;
+    top: 0.42px;
+    left: 17.2px;
+    opacity: 1;
+  }
+
+  .logo-o {
+    width: 15.876640319824219;
+    height: 18.91660499572754;
+    top: 7.38px;
+    left: 29.18px;
+    opacity: 1;
+  }
+
+  .logo-v {
+    width: 19.470548629760742;
+    height: 18.262733459472656;
+    top: 8.03px;
+    left: 47.06px;
+    opacity: 1;
+  }
+
+  .logo-e {
+    width: 14.617630004882812;
+    height: 18.922605514526367;
+    top: 7.38px;
+    left: 68.51px;
+    opacity: 1;
+  }
+
+  .dot-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dot-up {
+    width: 3.650789737701416;
+    height: 3.3283350467681885;
+    top: 10.23px;
+    left: 87.91px;
+    opacity: 1;
+  }
+
+  .dot-down {
+    width: 3.6499433517456055;
+    height: 3.3300180435180664;
+    top: 19.78px;
+    left: 87.87px;
+    opacity: 1;
+  }
+
+  .logo-dental-card {
+    margin-left: 40px;
+    width: 6.6744513511657715;
+    height: 8.124756813049316;
+    opacity: 1;
+    top: 43.98px;
+    left: 31.81px;
+  }
+
+  .l {
+    width: 5.26655912399292;
+    height: 6.406057834625244;
+    top: 34.68px;
+    left: 25.1px;
+    opacity: 1;
+  }
+
+  .curve-img {
+    width: 6.931172847747803;
+    height: 21.50672721862793;
+    top: 6.06px;
+    left: 94.05px;
+    opacity: 1;
+  }
+
+  .book-appointment-card {
+    display: none;
+  }
+
+  .contact-info-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 154.00009155273438px;
+    height: 38px;
+    top: 21px;
+    left: 220px;
+    opacity: 1;
+    border-radius: 70px;
+    border-width: 1px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    gap: 12px;
+  }
+
+  .contact-info-card p {
+    width: 106;
+    height: 11;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  .contact-info-card i {
+    width: 12.000088691711426;
+    height: 20.9981632232666;
+    opacity: 1;
+  }
+
+  .contact-info-card:hover {
+    background: green;
+    color: #ffffff;
+  }
+  /* Ends Nav */
+
+  /* Starts Hospital Information  */
+
+  .heading-description-card {
+    height: 47px;
+    width: 426px;
+    gap: 8px;
+  }
+
+  .heading {
+    font-family: "Figtree";
+    width: 287px;
+    height: 18px;
+    color: #303030;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+  }
+
+  .description {
+    width: 426px;
+    height: 21px;
+    font-weight: 600;
+    font-family: "Figtree";
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #4e4e4e;
+  }
+
+  .hospital-user-details-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hospital-info-container {
+    background-image: url("./assets/hospital-bg.jpg");
+    width: 390px;
+    height: 394px;
+    top: 120px;
+    opacity: 1;
+    background-size: cover;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .doctor-bg-img {
+    width: 216px;
+    height: 280px;
+    top: 114px;
+    left: 200px;
+    opacity: 1;
+    transform: rotate(-180%);
+    transform: translate(-100%, 10%);
+    margin-top: 55px;
+  }
+
+  .painless-root-canal-treatment-card {
+    background: linear-gradient(
+      to right,
+      #ffffff 0%,
+      #ffffff 40%,
+      rgba(255, 255, 255, 0.5) 60%,
+      rgba(255, 255, 255, 0.5) 100%
+    );
+    width: 390px;
+    height: 205px;
+    top: 66px;
+    opacity: 1;
+    padding-top: 20px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+    gap: 24px;
+    backdrop-filter: blur(15px);
+  }
+
+  /* Ends Hospital Info */
+
+  /* Start User Details */
+
+  .user-details-container {
+    width: 326px;
+    height: 417px;
+    top: 16px;
+    left: 16px;
+    opacity: 1;
+    gap: 24px;
+    background: #fff9f4;
+  }
+
+  .get-expert-card {
+    width: 326px;
+    height: 123px;
+    opacity: 1;
+    gap: 8px;
+  }
+
+  .get-expert-card h1 {
+    width: 326px;
+    height: 52px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #303030;
+  }
+
+  .get-expert-card p {
+    width: 326px;
+    height: 63px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #474747;
+  }
+
+  .user-details-card {
+    width: 326px;
+    height: 270px;
+    opacity: 1;
+    gap: 24px;
+  }
+
+  .user-details-card input[type="text"] {
+    width: 326px;
+    height: 38px;
+    opacity: 1;
+    border-radius: 24px;
+    border-width: 1px;
+    padding-top: 17px;
+    padding-right: 16px;
+    padding-bottom: 17px;
+    padding-left: 16px;
+    gap: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ffe0c4;
+  }
+
+  .terms-card {
+    width: 326px;
+    height: 32px;
+    opacity: 1;
+    gap: 8px;
+  }
+
+  .terms-checkbox {
+    width: 19px;
+    height: 19px;
+    opacity: 1;
+    color: #ffffff;
+    border: 1px solid #ffe0c4;
+    border-radius: 4px;
+    border-width: 1px;
+  }
+
+  .terms-checkbox:checked {
+    background-color: #f58420;
+    border-color: #f58420;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.2 4.2c-.3-.3-.8-.3-1.1 0L6.5 8.7 4.9 7.1c-.3-.3-.8-.3-1.1 0-.3.3-.3.8 0 1.1l2.2 2.2c.3.3.8.3 1.1 0l5-5c.4-.3.4-.8.1-1.2z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
+  }
+
+  .terms-label {
+    width: 299px;
+    height: 32px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #303030;
+  }
+
+  .book-free-btn-card {
+    width: 326px;
+    height: 38px;
+    opacity: 1;
+    border-radius: 24px;
+    gap: 10px;
+    padding: 16px;
+    background-color: #f58420;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .book-free-btn {
+    width: 160px;
+    height: 10px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .book-free-btn-card:hover {
+    background-color: green;
+    color: #ffffff;
+  }
+
+  /* Ends User Details */
+
+  /* Banner-start */
+
+  .user-details-container,
+  .user-details-card,
+  .get-expert-card,
+  .banner-section-mb {
+    height: auto;
+  }
+
+  .banner-section-mb {
+    width: 390px;
+    height: 60px;
+    top: 514px;
+    opacity: 1;
+    background: #fff9f4;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    scroll-behavior: smooth;
+  }
+
+  .banner-section {
+    display: none;
+  }
+
+  .banner-card {
+    width: 100.59735107421875px;
+    height: 38.28134536743164px;
+    opacity: 1;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .banner-img {
+    width: 34.59735107421875px;
+    height: 38.28134536743164px;
+    opacity: 1;
+    margin-right: 4px;
+  }
+
+  .banner-head {
+    width: 81px;
+    height: 10px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0%;
+  }
+
+  .banner-span {
+    font-family: Figtree;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0%;
+  }
+
+  /* Banner-ends */
+
+  /* ---------------------------------------------------------- */
+
+  /* Bottom Section start  */
+
+  /* Starts Treatments Container  */
+
+  .treatment-container,
+  .treatment-heading-card,
+  .treatments-card,
+  .root-canal-treatment-container,
+  .re-root-canal-treatment-container {
+    height: auto;
+  }
+
+  .treatment-container {
+    width: 358px;
+    height: 703px;
+    opacity: 1;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .treatment-heading-card {
+    width: 358px;
+    height: 95px;
+    opacity: 1;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .treatment-heading {
+    width: 228px;
+    height: 24px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #1a1a1a;
+  }
+
+  .treatment-description {
+    width: 358px;
+    height: 63px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #474747;
+    text-align: center;
+  }
+
+  .treatments-card {
+    width: 358px;
+    height: 588px;
+    opacity: 1;
+    gap: 22px;
+    opacity: 1;
+    gap: 40px;
+    display: flex;
+  }
+
+  /* Starts Root section  */
+
+  .root-canal-treatment-container {
+    width: 285px;
+    height: 588px;
+    border-radius: 20px;
+    border-width: 1px;
+    border: 1px solid #ffe0c4;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .treatment-root-img {
+    width: 285px;
+    height: 285px;
+    opacity: 1;
+  }
+
+  .root-canal-treatment-card {
+    width: 285px;
+    height: 303px;
+    opacity: 1;
+    gap: 16px;
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+  }
+
+  .root-canal-heading-card {
+    width: 224px;
+    height: 45px;
+    opacity: 1;
+    gap: 8px;
+  }
+
+  .root-canal-heading-card h1 {
+    width: 167px;
+    height: 19px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+  }
+
+  .root-canal-heading-card p {
+    width: 224px;
+    height: 18px;
+    opacity: 1;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #474747;
+  }
+
+  .root-rct-types-card {
+    width: 186px;
+    height: 72px;
+    opacity: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .root-rct-types-card h1 {
+    width: 86px;
+    height: 17px;
+    opacity: 1;
+    opacity: 1;
+    font-family: "Figtree";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-top: 20px;
+  }
+
+  .root-rct-types-card ul {
+    width: 186px;
+    height: 72px;
+    opacity: 1;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #474747;
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  .pricing-section {
+    width: 245px;
+    height: 97px;
+    opacity: 1;
+    gap: 20px;
+    height: auto;
+  }
+
+  .pricing-card {
+    width: 147px;
+    height: auto;
+    height: 39px;
+    opacity: 1;
+    gap: 4px;
+  }
+
+  .pricing-card p {
+    width: 147px;
+    height: 16px;
+    opacity: 1;
+    font-family: "Figtree";
+    font-weight: 600;
+    font-style: "SemiBold";
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #f58420;
+  }
+
+  .pricing-card h1 {
+    width: 61px;
+    height: 19px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1a1a1a;
+  }
+
+  .pricing-section button {
+    width: 245px;
+    height: 38px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 24px;
+    background-color: #f58420;
+    border: none;
+    color: #ffffff;
+  }
+
+  /* Root-section Ends */
+
+  /* Re-root-section */
+
+  .re-root-canal-treatment-container {
+    width: 285px;
+    height: 588px;
+    border-radius: 20px;
+    border-width: 1px;
+    border: 1px solid #ffe0c4;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .treatment-re-root-img {
+    width: 285px;
+    height: 285px;
+    opacity: 1;
+  }
+
+  .re-root-canal-treatment-card {
+    width: 285px;
+    height: 303px;
+    opacity: 1;
+    gap: 16px;
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+  }
+
+  .re-root-canal-heading-card {
+    width: 224px;
+    height: 45px;
+    opacity: 1;
+    gap: 8px;
+  }
+
+  .re-root-canal-heading-card h1 {
+    width: 167px;
+    height: 19px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+  }
+
+  .re-root-canal-heading-card p {
+    width: 224px;
+    height: 18px;
+    opacity: 1;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #474747;
+  }
+
+  .re-root-rct-types-card {
+    width: 186px;
+    height: 72px;
+    opacity: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .re-root-rct-types-card h1 {
+    width: 86px;
+    height: 17px;
+    opacity: 1;
+    opacity: 1;
+    font-family: "Figtree";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-top: 20px;
+  }
+
+  .re-root-rct-types-card ul {
+    width: 186px;
+    height: 72px;
+    opacity: 1;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #474747;
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  .pricing-section {
+    width: 245px;
+    height: 97px;
+    opacity: 1;
+    gap: 20px;
+  }
+
+  .pricing-card {
+    width: 147px;
+    height: 39px;
+    opacity: 1;
+    gap: 4px;
+  }
+
+  .pricing-card p {
+    width: 147px;
+    height: 16px;
+    opacity: 1;
+    font-family: "Figtree";
+    font-weight: 600;
+    font-style: "SemiBold";
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #f58420;
+  }
+
+  .pricing-card h1 {
+    width: 61px;
+    height: 19px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1a1a1a;
+  }
+
+  .pricing-section button {
+    width: 245px;
+    height: 38px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 24px;
+    background-color: #f58420;
+    border: none;
+    color: #ffffff;
+  }
+
+  /* re-root section ends */
+
+  /* Starts Treatments Container */
+  /* Start Testimonials */
+
+  .testimonials-container {
+    width: 1320px;
+    height: 479px;
+    opacity: 1;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .header-card {
+    width: 820px;
+    height: 61px;
+    opacity: 1;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-card h1 {
+    width: 251px;
+    height: 31px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #303030;
+  }
+
+  .header-card p {
+    width: 820px;
+    height: 26px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #474747;
+  }
+
+  .sliders-card {
+    width: 1320px;
+    height: 398px;
+    opacity: 1;
+    gap: 24px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+
+  .testimonial-card {
+    width: 224px;
+    height: 398px;
+    opacity: 1;
+    gap: 8px;
+  }
+
+  .testimonial-card img {
+    width: 224;
+    height: 350;
+    opacity: 1;
+    border-radius: 10px;
+  }
+
+  .patient-details-card {
+    width: 224px;
+    height: 40px;
+    justify-content: space-between;
+    opacity: 1;
+    display: flex;
+  }
+
+  .patient-details-card div {
+    width: 69px;
+    height: 40px;
+    opacity: 1;
+    gap: 4px;
+  }
+
+  .patient-details-card div h1 {
+    width: 69px;
+    height: 19px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1a1a1a;
+  }
+
+  .patient-details-card div p {
+    width: 42px;
+    height: 17px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #777777;
+  }
+
+  .patient-details-card span {
+    width: 60;
+    height: 19px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #f58420;
+  }
+
+  /* Ends Testimonials */
+
+  /* Google-reviews starts*/
+  .google-reviews-container {
+    width: 1440px;
+    height: 338px;
+    opacity: 1;
+    gap: 20px;
+    padding: 40px;
+    background-color: #fff9f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .google-reviews-container h1 {
+    width: 185px;
+    height: 17px;
+    opacity: 1;
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #303030;
+  }
+
+  .reviews-card {
+    width: 1164.75px;
+    height: 221px;
+    opacity: 1;
+    gap: 69px;
+    display: flex;
+    align-items: center;
+  }
+
+  .google-card {
+    width: 174px;
+    height: 155.5px;
+    opacity: 1;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .google-card div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .google-card p {
+    width: 174px;
+    height: 11px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000;
+  }
+
+  .rating-card {
+    width: 128px;
+    height: 55.25px;
+    opacity: 1;
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rating-card div {
+    width: 80.25px;
+    height: 29.25px;
+    opacity: 1;
+    gap: 7.5px;
+  }
+
+  .rating-card div img {
+    width: 29.25px;
+    height: 29.25px;
+    opacity: 1;
+    border-radius: 0.75px;
+  }
+
+  .rating-card div h1 {
+    width: 36px;
+    height: 29px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #303030;
+    margin-top: 4px;
+  }
+
+  .rating-card p {
+    width: 174px;
+    height: 11px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #474747;
+  }
+
+  .vr-line {
+    width: 0px;
+    height: 28px;
+    opacity: 1;
+    border-width: 1.5px;
+    border: 1.5px solid #ffe7d2;
+    text-align: center;
+    color: #de6f0d;
+  }
+
+  .reviews-card-vl {
+    width: 142.5000000000001px;
+    height: 0px;
+    transform: rotate(-90deg);
+    opacity: 1;
+    border-width: 1.5px;
+    border: 1px solid #ffddc1;
+  }
+
+  .review-testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 852.75px;
+    height: 221px;
+    gap: 24px;
+    overflow-x: auto;
+    opacity: 1;
+    scroll-behavior: smooth;
+  }
+
+  .review-card {
+    width: 302.25px;
+    height: 202px;
+    gap: 18px;
+    opacity: 1;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .google-logo-card {
+    width: 350px;
+    height: 200px;
+    position: relative;
+  }
+
+  .google-logo {
+    position: absolute;
+    top: 0px;
+    right: 38px;
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 120px;
+    background-color: #ffebc4;
+  }
+
+  .review-profile img {
+    width: 51px;
+    height: 51px;
+    opacity: 1;
+  }
+
+  .review-profile-container {
+    width: 272.25px;
+    height: 103px;
+    gap: 18px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-profile-container p {
+    width: 272.25px;
+    height: 44px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #464646;
+  }
+
+  .review-profile-card {
+    width: 272.25px;
+    height: 41px;
+    gap: 12px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-profile-card h1 {
+    font-family: Figtree;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 85px;
+    height: 11px;
+    opacity: 1;
+    color: #303030;
+  }
+
+  .review-profile-card div {
+    width: 125.7503890991211px;
+    height: 18px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .review-profile-card div img {
+    width: 18.291893005371094;
+    height: 18;
+    top: 23px;
+    left: 83.25px;
+    opacity: 1;
+  }
+  /* Google-reviews Ends*/
+
+  /* Starts footer section  */
+  .footer-container {
+    width: 1440px;
+    height: 149px;
+    opacity: 1;
+    background-color: #462512;
+    padding: 20px;
+  }
+
+  .clove-logo {
+    width: 174px;
+    height: 69px;
+    opacity: 1;
+  }
+
+  .footer-content-card {
+    width: 1320px;
+    height: 69px;
+    top: 40px;
+    left: 60px;
+    justify-content: space-between;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-content {
+    width: 837px;
+    height: 69px;
+    gap: 24px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .footer-content ul {
+    width: 361px;
+    height: 11px;
+    gap: 27px;
+    opacity: 1;
+    display: flex;
+  }
+
+  .footer-content ul li {
+    width: 118px;
+    height: 11px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #ffffff;
+    display: inline;
+  }
+
+  .footer-content p {
+    width: 761px;
+    height: 10px;
+    opacity: 1;
+    font-family: Figtree;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .hr-line {
+    width: 837px;
+    height: 0px;
+    opacity: 1;
+    border-width: 1px;
+    color: #ffffff;
+    margin-right: 20px;
+  }
+
+  /* Ends footer section  */
+
+  .input-error {
+    color: #ff4444;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .captcha-card {
+    display: flex;
+    gap: 30px;
+  }
+
+  .get-captcha-btn {
+    border: none;
+    background-color: #f58420;
+    width: 112px;
+    height: 48px;
+    color: #ffff;
+    padding: 10px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .captcha-digit {
+    border: none;
+    background-color: green;
+    width: 112px;
+    height: 48px;
+    color: #ffff;
+    font-family: sans-serif;
+    border-radius: 15px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+}
