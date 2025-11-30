@@ -13,9 +13,16 @@ function getCaptch() {
   const mobileValue = mobileInput.value.trim();
   const nameValue = nameInput.value.trim();
 
-  if (nameValue === "" || mobileValue.length !== 10 || isNaN(mobileValue)) {
-    mobileErrorMsg.textContent =
-      "Enter a valid 10-digit mobile number or name.";
+  if (nameValue === "") {
+    mobileErrorMsg.textContent = "Enter a Valid Name";
+    mobileErrorMsg.classList.add("input-error");
+    mobileInput.value = "";
+    nameInput.value = "";
+    return;
+  }
+
+  if (mobileValue.length !== 10 || isNaN(mobileValue)) {
+    mobileErrorMsg.textContent = "Enter a valid 10-digit mobile number.";
     mobileErrorMsg.classList.add("input-error");
     mobileInput.value = "";
     nameInput.value = "";
