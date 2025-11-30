@@ -8,7 +8,7 @@ const captchaButton = document.getElementById("get-captcha");
 const captchaText = document.getElementById("rand-captcha");
 const checkboxInput = document.getElementById("checkbox");
 
-let randCaptcha;
+let randCaptcha = null;
 function getCaptch() {
   const mobileValue = mobileInput.value.trim();
   const nameValue = nameInput.value.trim();
@@ -37,8 +37,7 @@ form.addEventListener("submit", function (event) {
   if (!checkboxInput.checked) {
     alert("* Required to agree terms and conditions");
     return;
-  }
-  nameInput.classList.remove("input-error");
+  } else nameInput.classList.remove("input-error");
   mobileInput.classList.remove("input-error");
   captchaInput.classList.remove("input-error");
 
@@ -54,7 +53,7 @@ form.addEventListener("submit", function (event) {
     return;
   }
 
-  if (captchaInput.value !== randCaptcha) {
+  if (captchaInput.value !== String(randCaptcha)) {
     errorText.textContent = "Enter a valid captcha";
     errorText.classList.add("input-error");
     return;
@@ -68,4 +67,5 @@ form.addEventListener("submit", function (event) {
   randCaptcha = null;
   errorText.textContent = "";
   errorText.classList.remove("input-error");
+  captchaText.classList.remove("captcha-digit");
 });
