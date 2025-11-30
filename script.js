@@ -22,7 +22,7 @@ function getCaptch() {
     return;
   }
 
-  randCaptcha = Math.ceil(Math.random() * 10000);
+  randCaptcha = String(Math.floor(Math.random() * 10000)).padStart(4, "0");
 
   captchaText.textContent = randCaptcha;
   captchaText.classList.add("captcha-digit");
