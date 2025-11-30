@@ -215,7 +215,7 @@ body {
   top: 44px;
   left: 468px;
   transform: rotate(-180%);
-  transform: translate(-50%);
+  transform: translate(-50%, 6.5%);
   margin-top: 44px;
 }
 
