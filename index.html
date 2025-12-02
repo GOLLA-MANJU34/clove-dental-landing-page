@@ -11,8 +11,10 @@
     />
   </head>
   <body>
-    <div>
-      <!-- Nav Starts -->
+    <!-- start -->
+     
+    <div class="main-container">
+      <!-- section 1 -->
 
       <nav class="nav-container">
         <div class="logo-container">
@@ -50,7 +52,7 @@
           </div>
         </div>
         <div class="contact-card">
-          <div class="book-appointment-card">
+          <div class="header-book-appointment-card">
             <i class="fa-solid fa-book"></i>
             <p>Book Appointment</p>
           </div>
@@ -61,18 +63,24 @@
         </div>
       </nav>
 
-      <!-- Nav Ends -->
-
-      <!-- Hospital and Users Details Section starts -->
+      <!-- section 2 -->
 
       <div class="hospital-user-details-container">
         <div class="hospital-info-container">
           <div class="painless-root-canal-treatment-card">
             <div class="heading-description-card">
-              <h1 class="heading">Painless Root Canal Treatment in Delhi</h1>
-              <p>Expert RCT. Zero Pain. Right Here in Delhi.</p>
+              <h1 class="pain-heading">
+                Painless Root Canal Treatment in Delhi
+              </h1>
+              <h1 class="your-smile-heading">
+                Your Smile, Our Priority At
+                <span class="clove-dental-span">Clove Dental</span>
+              </h1>
+              <p class="expert-description">
+                Expert RCT. Zero Pain. Right Here in Delhi.
+              </p>
             </div>
-            <div class="book-appointment-card">
+            <div class="hospital-btn-book-appointment-card">
               <i class="fa-solid fa-book"></i>
               <p>Book Appointment</p>
             </div>
@@ -84,35 +92,39 @@
           />
         </div>
         <div class="banner-section-mb">
-          <div class="banner-card">
-            <img
-              src="./assets/banner-imgs/Clinics.svg"
-              alt="clinics"
-              class="banner-img"
-            />
-            <h1 class="banner-head">
-              <span class="banner-span">600+</span>Clinics
-            </h1>
-          </div>
-          <div class="banner-card">
-            <img
-              src="./assets/banner-imgs/dentists.svg"
-              alt="dentist"
-              class="banner-img"
-            />
-            <h1 class="banner-head">
-              <span class="banner-span">1300+</span>Dentists
-            </h1>
-          </div>
-          <div class="banner-card">
-            <img
-              src="./assets/banner-imgs/HappyPatients.svg"
-              alt="HappyPatients"
-              class="banner-img"
-            />
-            <h1 class="banner-head">
-              <span class="banner-span">30 L+</span>Happy Patients
-            </h1>
+          <div class="banner-container">
+            <div>
+              <div class="banner-card">
+                <img
+                  src="./assets/banner-imgs/Clinics.svg"
+                  alt="clinics"
+                  class="banner-img"
+                />
+                <h1 class="banner-head">
+                  <span class="banner-span">600+</span>Clinics
+                </h1>
+              </div>
+              <div class="banner-card">
+                <img
+                  src="./assets/banner-imgs/dentists.svg"
+                  alt="dentist"
+                  class="banner-img"
+                />
+                <h1 class="banner-head">
+                  <span class="banner-span">1300+</span>Dentists
+                </h1>
+              </div>
+              <div class="banner-card">
+                <img
+                  src="./assets/banner-imgs/Implant.svg"
+                  alt="dentist"
+                  class="banner-img"
+                />
+                <h1 class="banner-head">
+                  <span class="banner-span">55 K+</span>Implants Placed
+                </h1>
+              </div>
+            </div>
           </div>
         </div>
         <div class="user-details-container">
@@ -139,7 +151,9 @@
               <div class="terms-card">
                 <input id="checkbox" type="checkbox" class="terms-checkbox" />
                 <label for="checkbox" class="terms-label"
-                  >I agree to CLOVE Dental’s Terms and Privacy Policy and
+                  >I agree to CLOVE Dental’s
+                  <span class="checkbox-terms-span">Terms</span> and Privacy
+                  <span class="checkbox-policy-span">Privacy Policy</span> and
                   consent to contact via phone, email, or SMS.</label
                 >
               </div>
@@ -153,9 +167,7 @@
         </div>
       </div>
 
-      <!-- Hospital and Users Details Section Ends -->
-
-      <!-- Banner Section Starts -->
+      <!-- section 3 -->
 
       <div class="banner-section">
         <div class="banner-card">
@@ -210,9 +222,50 @@
         </div>
       </div>
 
-      <!-- Banner Section Ends -->
+      <!-- Mobile veiw section -->
 
-      <!-- Treatment Details Section Starts -->
+      <div class="user-details-container-mb">
+        <div class="user-details-section">
+          <div class="get-expert-card">
+            <h1>Get Expert Dental Guidance in Delhi</h1>
+            <p>
+              Book your free consultation today and take the first step towards
+              healthy, beautiful teeth.
+            </p>
+          </div>
+          <form id="user-details-form">
+            <div class="user-details-card">
+              <input id="name" type="text" placeholder="Name" />
+              <input id="mobile" type="text" placeholder="Mobile Number" />
+              <p id="mobile-error-msg"></p>
+              <div class="captcha-card">
+                <button type="button" id="get-captcha" class="get-captcha-btn">
+                  Get Captcha
+                </button>
+                <span id="rand-captcha"></span>
+              </div>
+              <input id="captcha" type="text" placeholder="Captcha" />
+              <p id="error-msg"></p>
+              <div class="terms-card">
+                <input id="checkbox" type="checkbox" class="terms-checkbox" />
+                <label for="checkbox" class="terms-label"
+                  >I agree to CLOVE Dental’s
+                  <span class="checkbox-terms-span">Terms</span> and
+                  <span class="checkbox-policy-span">Privacy Policy</span> and
+                  consent to contact via phone, email, or SMS.</label
+                >
+              </div>
+              <div class="book-free-btn-card">
+                <button class="book-free-btn" type="submit">
+                  Book a Free Consultation
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- section 4 -->
 
       <div class="treatment-container">
         <div class="treatment-heading-card">
@@ -286,9 +339,8 @@
         </div>
       </div>
 
-      <!-- Treatment Details Section Ends -->
+      <!-- section 5 -->
 
-      <!-- Testimonials section Starts -->
       <div class="testimonials-container">
         <div class="header-card">
           <h1>What Our Patients Say</h1>
@@ -361,9 +413,8 @@
         </div>
       </div>
 
-      <!-- Testimonials section Ends -->
+      <!-- section 6-->
 
-      <!-- Google Reviews Section Start-->
       <div class="google-reviews-container">
         <h1>Google Reviews</h1>
         <div class="reviews-card">
@@ -375,9 +426,9 @@
                 <hr class="vr-line" />
                 <h1>4.9</h1>
               </div>
-              <p>(1.6 Lakh +)</p>
+              <p class="review-count-text">(1.6 Lakh +)</p>
+              <p class="google-verified-text">Verified Google Ratings</p>
             </div>
-            <p>Verified Google Ratings</p>
           </div>
           <hr class="reviews-card-vl" />
           <div class="review-testimonials">
@@ -468,36 +519,53 @@
           </div>
         </div>
       </div>
-      <!-- Google Reviews Section Start-->
-    </div>
-    <!-- Footer Section Start -->
-    <footer class="footer-container">
-      <div class="footer-content-card">
-        <div>
-          <img
-            src="./assets/footer/clove logo.png"
-            alt="clove-logo"
-            class="clove-logo"
-          />
-        </div>
-        <div class="footer-content">
-          <ul>
-            <li>Privacy Policy</li>
-            <li>Terms of service</li>
-            <li>Accessibility</li>
-          </ul>
-          <div class="container">
-            <hr class="hr-line" />
+      <!-- section 7 -->
+
+      <footer class="footer-container">
+        <div class="footer-content-card">
+          <div class="logo-privacy-terms-card">
+            <img
+              src="./assets/footer/clove logo.png"
+              alt="clove-logo"
+              class="clove-logo"
+            />
+            <ul>
+              <li>Privacy Policy</li>
+              <li>Terms of service</li>
+            </ul>
           </div>
-          <p>
-            All Rights Reserved - 2024, Clove Dental (a brand name of M/s. SStar
-            Dental Centre Private Limited). Managed By Unbund
-          </p>
+          <div class="footer-content">
+            <ul>
+              <li>Privacy Policy</li>
+              <li>Terms of service</li>
+              <li>Accessibility</li>
+            </ul>
+            <div>
+              <hr class="hr-line" />
+            </div>
+            <p>
+              All Rights Reserved - 2024, Clove Dental (a brand name of M/s.
+              SStar Dental Centre Private Limited). Managed By Unbund
+            </p>
+          </div>
+        </div>
+      </footer>
+
+      <!-- mobile-view-banner-additiona-section -->
+
+      <div class="mobile-view-footer-links-card">
+        <div class="book-Appointments-card">
+          <img src="./assets/footer/Book-img.svg" />
+          <p>Book Appointments</p>
+        </div>
+        <div><hr /></div>
+        <div class="call-instant-card">
+          <img src="./assets/footer/call-img.svg" />
+          <p>Instant Callback</p>
         </div>
       </div>
-    </footer>
-    <!-- Footer Section Ends -->
-
+    </div>
+    <!-- The End -->
     <script src="script.js"></script>
   </body>
 </html>
