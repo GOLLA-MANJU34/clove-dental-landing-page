@@ -10,18 +10,23 @@ body {
 }
 
 /* Mobile-view-classes */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .your-smile-heading {
     display: none;
   }
   .user-details-container-mb {
     display: none;
   }
+
   .logo-privacy-terms-card {
     display: none;
   }
 
   .mobile-view-footer-links-card {
+    display: none;
+  }
+
+  .moible-view-brands-card {
     display: none;
   }
 }
@@ -373,6 +378,7 @@ body {
   background-position: center;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .heading-description-card {
@@ -465,6 +471,27 @@ body {
     align-items: center;
     position: relative;
     top: 0px;
+  }
+
+  .moible-view-brands-card {
+    width: 210px;
+    height: 45.97633361816406px;
+    left: 180px;
+    opacity: 1;
+    gap: 6.21px;
+    padding-top: 9.94px;
+    padding-right: 19.88px;
+    padding-bottom: 9.94px;
+    padding-left: 19.88px;
+    border-bottom-left-radius: 12.7px;
+    background-image: linear-gradient(to right, #ffffff80, #ffffff80);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 80px;
+    right: 5px;
+    backdrop-filter: blur;
   }
 
   .painless-root-canal-treatment-card {
@@ -2249,6 +2276,7 @@ body {
     overflow-x: auto;
     opacity: 1;
     scroll-behavior: smooth;
+    scrollbar-width: none;
   }
 
   .review-card {
@@ -2533,7 +2561,7 @@ body {
     border-bottom-left-radius: 92px;
     background-color: #ffebc4;
     position: absolute;
-    top: 70px;
+    top: 0px;
     right: 0px;
     display: flex;
     align-items: center;
