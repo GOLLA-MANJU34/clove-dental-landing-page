@@ -2966,6 +2966,13 @@ body {
     display: flex;
     gap: 20px;
   }
+
+  .input-error {
+    color: #ff4444;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+  }
 }
 
 /* Ends footer section  */
@@ -3010,5 +3017,3 @@ body {
   text-align: center;
   cursor: pointer;
 }
-
-/* Mobile view */
